@@ -13,6 +13,7 @@ app.use(
 
 const pool = new Pool({
     user: 'postgres',
-
+    host: 'localhost',
+  
 })
 
